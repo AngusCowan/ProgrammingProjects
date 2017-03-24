@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-03-19" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.8.3" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-05-22" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.8.3" locale="en_CA">
     <description/>
-    <view zooming-state="default:5" id="gantt-chart">
+    <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Name" width="199" order="0"/>
         <field id="tpd4" name="Begin date" width="75" order="1"/>
         <field id="tpd5" name="End date" width="75" order="2"/>
-        <timeline><![CDATA[4,11,2,6,0,8,13,10,17]]></timeline>
-        <option id="color.recent"><![CDATA[#663300 #333300 #660066 #0000cc #009900 #ffff00 #ff6600 #ff0033 #000000 #ff33cc]]></option>
+        <timeline><![CDATA[4,13,11,0,17,10,22,8,32,18,25,30,6,2]]></timeline>
+        <option id="color.recent"><![CDATA[#9900cc #cc3300 #ff66cc #33ff00 #00ccff #663300 #333300 #660066 #0000cc #009900]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -35,6 +35,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="18" name="Planning Stage" color="#00ccff" meeting="false" start="2017-03-20" duration="5" complete="0" expand="true"/>
         <task id="0" name="Project 02 Spaceship Interface" color="#ff0033" meeting="false" start="2017-03-27" duration="5" complete="0" expand="true"/>
         <task id="2" name="Project 03 LOVE-O-METER" color="#ff6600" meeting="false" start="2017-04-03" duration="5" complete="0" expand="true"/>
         <task id="4" name="Project 04 COLOR MIXING LAMP" color="#ffff00" meeting="false" start="2017-04-10" duration="5" complete="0" expand="true"/>
@@ -44,6 +45,10 @@
         <task id="11" name="Project 08 DIGITAL HOURGLASS" color="#660066" meeting="false" start="2017-05-08" duration="5" complete="0" expand="true"/>
         <task id="13" name="Project 09 MOTORIZED PINWHEEL" color="#333300" meeting="false" start="2017-05-15" duration="5" complete="0" expand="true"/>
         <task id="17" name="Project 10 ZOETROPE" color="#663300" meeting="false" start="2017-05-22" duration="5" complete="0" expand="true"/>
+        <task id="22" name="Design Phase" color="#33ff00" meeting="false" start="2017-05-29" duration="5" complete="0" expand="true"/>
+        <task id="25" name="Prototype Phase" color="#ff66cc" meeting="false" start="2017-06-05" duration="10" complete="0" expand="true"/>
+        <task id="30" name="Revision Phase" color="#cc3300" meeting="false" start="2017-06-19" duration="3" complete="0" expand="true"/>
+        <task id="32" name="Implimentation Phase" color="#9900cc" meeting="false" start="2017-06-22" duration="7" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
